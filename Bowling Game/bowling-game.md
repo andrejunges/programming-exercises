@@ -10,7 +10,13 @@ A strike is when the player knocks down all 10 pins on his first try.  The bonus
 In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.  However no more than three balls can be rolled in tenth frame.
 
 ## Task
-Write a class named **Game** that has two methods: `roll(pins : int)` is called each time the player rolls a ball. The argument is the number of pins knocked down. `score() : int` is called only at the very end of the game.  It returns the total score for that game.
+Implement a basic UI for the bowling game.
+
+1. A user must be able to define the number of each frame or randomly get one.
+2. The rules mentioned above should all be respected.
+3. The use of React is required.
+4. You can use other libraries as you see fit.
+5. Tests are optional.
 
 ## Example
 ![bowling_example](./bowling_game_image.png)
